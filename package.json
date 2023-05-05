@@ -1,11 +1,13 @@
 {
-  "name": "squid-mongo",
-  "version": "1.0.0",
+  "name": "@allenzhong/squid-mongo",
+  "version": "0.0.1",
   "description": "Subsquid SDK Mongo DB Library",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf ./dist/ && tsc"
   },
+  "homepage": "https://github.com/allenzhong/squid-mongo",
   "author": "Allen Zhong",
   "license": "MIT",
   "dependencies": {
