@@ -1,0 +1,16 @@
+{
+  "name": "squid-mongo",
+  "version": "1.0.0",
+  "description": "Subsquid SDK Mongo DB Library",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./dist/ && tsc"
+  },
+  "author": "Allen Zhong",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^7.1.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.4"
+  }
+}
